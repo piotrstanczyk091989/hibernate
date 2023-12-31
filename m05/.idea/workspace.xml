@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f24ee01b-ccb6-4674-a6c4-d0c713854616" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/GrepConsole.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/App17Jpql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/App18JpqlAResponseMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/App19JpqlBAutomaticResponseMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/App20Join.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/App21MultiJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/App22MultiJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/App23cartesianProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/App24MultiMulti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/App25FetchTypeInDirectFetchingAngQueryFeching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/App26FetchMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/App27QueryWithIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/App28EntityGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/App29NplusOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/entity/Attribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/entity/OrderRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/entity/ProductInCategoryCounterDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/entity/ProductType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/entity/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/java/pl/javaps/hibernate/entity/ReviewDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/resources/sql/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/main/resources/sql/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/test/java/pl/javaps/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/.idea/GrepConsole.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/.idea/m04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/java/pl/javaps/hibernate/App30Insert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/java/pl/javaps/hibernate/App31UpdateAndPagine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/java/pl/javaps/hibernate/App32UpdateScrolling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/java/pl/javaps/hibernate/App33UpdateQuerying.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/java/pl/javaps/hibernate/App34Delete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/java/pl/javaps/hibernate/App35DeleteQuerying.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/java/pl/javaps/hibernate/App36CriteriaJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/java/pl/javaps/hibernate/App37CriteriaFiltering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/java/pl/javaps/hibernate/App38CriteriaAggregations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/java/pl/javaps/hibernate/entity/Attribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/java/pl/javaps/hibernate/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/java/pl/javaps/hibernate/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/java/pl/javaps/hibernate/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/java/pl/javaps/hibernate/entity/OrderRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/java/pl/javaps/hibernate/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/java/pl/javaps/hibernate/entity/ProductInCategoryCounterDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/java/pl/javaps/hibernate/entity/ProductType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/java/pl/javaps/hibernate/entity/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/java/pl/javaps/hibernate/entity/ReviewDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/java/pl/javaps/hibernate/entity/batch/BatchReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/resources/sql/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/main/resources/sql/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../m06/App/src/test/java/pl/javaps/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2aAtMrgYMRwTuuSjva6q5cfq6Io" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App05ManyToOne.executor": "Run",
+    "Application.App06ManyToOneBidirectional.executor": "Run",
+    "Application.App07ManyToOneDelete.executor": "Debug",
+    "Application.App08OneToOne.executor": "Debug",
+    "Application.App09OneToOneBidirectional.executor": "Debug",
+    "Application.App10ManyToMany.executor": "Debug",
+    "Application.App11AddOneToOne.executor": "Run",
+    "Application.App12AddManyToMany.executor": "Debug",
+    "Application.App13AddOneToMany.executor": "Run",
+    "Application.App14DeleteOneToOne.executor": "Debug",
+    "Application.App15DeleteManyToMany.executor": "Debug",
+    "Application.App16UpdateOneToMany.executor": "Debug",
+    "Application.App17Jpql.executor": "Debug",
+    "Application.App18JpqlAResponseMapping.executor": "Run",
+    "Application.App19JpqlBAutomaticResponseMapping.executor": "Debug",
+    "Application.App20Join.executor": "Debug",
+    "Application.App22MultiJoin.executor": "Debug",
+    "Application.App23cartesianProduct.executor": "Run",
+    "Application.App24MultiMulti.executor": "Debug",
+    "Application.App25FetchTypeInDirectFetchingAngQueryFeching.executor": "Debug",
+    "Application.App26FetchMode.executor": "Debug",
+    "Application.App27QueryWithIn.executor": "Debug",
+    "Application.App28EntityGraph.executor": "Debug",
+    "Application.App29NplusOne.executor": "Debug",
+    "Maven.App [clean].executor": "Run",
+    "Maven.App [install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/piotrs/Dokumenty/Piotr/workspacejava/hibernate",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.javaps.hibernate" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App29NplusOne">
+    <configuration name="App25FetchTypeInDirectFetchingAngQueryFeching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.javaps.hibernate.App25FetchTypeInDirectFetchingAngQueryFeching" />
+      <module name="App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.javaps.hibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App26FetchMode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.javaps.hibernate.App26FetchMode" />
+      <module name="App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.javaps.hibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App27QueryWithIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.javaps.hibernate.App27QueryWithIn" />
+      <module name="App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.javaps.hibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App28EntityGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.javaps.hibernate.App28EntityGraph" />
+      <module name="App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.javaps.hibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App29NplusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.javaps.hibernate.App29NplusOne" />
+      <module name="App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.javaps.hibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App29NplusOne" />
+        <item itemvalue="Application.App28EntityGraph" />
+        <item itemvalue="Application.App27QueryWithIn" />
+        <item itemvalue="Application.App26FetchMode" />
+        <item itemvalue="Application.App25FetchTypeInDirectFetchingAngQueryFeching" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.21-corretto-11.0.21-f644763e9732-a9dfd5e7" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f24ee01b-ccb6-4674-a6c4-d0c713854616" name="Changes" comment="" />
+      <created>1703773166966</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703773166966</updated>
+      <workItem from="1703790674937" duration="255000" />
+      <workItem from="1703790990701" duration="5393000" />
+      <workItem from="1703850425930" duration="58000" />
+      <workItem from="1703850657953" duration="22000" />
+      <workItem from="1703850700084" duration="13369000" />
+      <workItem from="1704064205923" duration="412000" />
+      <workItem from="1704064687891" duration="403000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
