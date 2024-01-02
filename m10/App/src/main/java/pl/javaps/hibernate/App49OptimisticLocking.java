@@ -9,32 +9,39 @@ import pl.javaps.hibernate.entity.Order;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-import java.time.LocalDateTime;
+import java.math.BigDecimal;
+import java.util.List;
 
 /**
  * Hello world!
  */
-public class App47SecondLevelCache {
-    private static Logger logger = LogManager.getLogger(App47SecondLevelCache.class);
+public class App49OptimisticLocking {
+    private static Logger logger = LogManager.getLogger(App49OptimisticLocking.class);
     private static EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("unit");
 
     public static void main(String[] args) {
         EntityManager em = entityManagerFactory.createEntityManager();
         em.getTransaction().begin();
 
-        Customer customer = em.find(Customer.class, 1L);
-        logger.info(customer);
+        EntityManager em2 = entityManagerFactory.createEntityManager();
+        em2.getTransaction().begin();
+
+        Order order = em.find(Order.class, 3L);
+        Order order2 = em2.find(Order.class, 3L);
+
+        order.setTotal(new BigDecimal("22.55"));
+
+        logger.info(order);
+
         em.getTransaction().commit();
         em.close();
 
-        em = entityManagerFactory.createEntityManager();
-        em.getTransaction().begin();
-        customer = em.find(Customer.class, 1L);
-        logger.info(customer);
-        em.getTransaction().commit();
+        order2.setTotal(new BigDecimal("22.66"));
 
-        em.close();
+        logger.info(order2);
 
+        em2.getTransaction().commit();
+        em2.close();
     }
 
     private static Order getOrder(Customer customer, long id) {

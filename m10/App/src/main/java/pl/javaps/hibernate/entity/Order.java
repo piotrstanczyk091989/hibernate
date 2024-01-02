@@ -48,6 +48,10 @@ public class Order {
     private Customer customer;
 
     private String uuid = UUID.randomUUID().toString();
+
+    @Version
+    private long version;
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

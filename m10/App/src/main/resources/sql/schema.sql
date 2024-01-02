@@ -147,3 +147,5 @@ CREATE TABLE `customer_note`
     CONSTRAINT `fk_note_note_id`
         FOREIGN KEY (`notes_id`) REFERENCES `note` (`id`)
 );
+
+ALTER TABLE `order` ADD COLUMN `version` BIGINT NULL DEFAULT 0 AFTER `uuid`;
